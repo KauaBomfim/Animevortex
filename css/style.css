@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+:root {
+    --cor0: #9240ac;
+    --cor1: #6f58a6;
+    --cor2: #dbc9df;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/imagens/backgroundgifsite.gif);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: var(--cor2);
+    margin-bottom: 40px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.212);
+}
+
+header h1 {
+    text-align: center;
+    font-family: Knewave, Helvetica, sans-serif;
+    font-size: 70px;
+    color: var(--cor0);
+    text-shadow: 3px 4px 8px rgba(0, 0, 0, 0.411);
+}
+
+section {
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+}
+
+
+section h2 {
+    text-align: center;
+    font-family: Knewave, Helvetica, sans-serif;
+    font-size: 40px;
+    color: var(--cor1);
+    text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.384);
+    margin-bottom: 50px;
+}
+
+article {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.377);
+}
+
+article h3 {
+    text-align: left;
+    padding: 30px;
+    font-family: Knewave, Helvetica, sans-serif;
+    font-size: 40px;
+    text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.384);
+    margin-top: 0;
+}
+
+
+article p {
+    color: rgb(251, 252, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align-last: left;
+    text-align: left;
+    text-indent: 30px;
+    text-shadow: 1px 1px 2px black;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.308);
+    max-width: 400px;
+    float: right;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+article img {
+    border-radius: 10px;
+    max-width: 700px;
+    width: 97%;
+}
+
+#naruto {
+    background-image: url(/imagens/imgnaruto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 3px 8px rgba(0, 0, 0, 0.247);
+    height: 700px;
+    margin-bottom: 100px;
+}
+
+#naruto > h3 {
+    color: rgb(238, 86, 30);
+}
+
+#hunter {
+    background-image: url(/imagens/hunterxhunter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 3px 8px rgba(0, 0, 0, 0.247);
+    height: 700px;
+    margin-bottom: 100px;
+}
+
+#hunter > h3 {
+    color: rgb(86, 101, 235);
+}
+
+#death_note {
+    background-image: url(/imagens/deathnoteimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 3px 8px rgba(0, 0, 0, 0.247);
+    height: 700px;
+    margin-bottom: 100px;
+}
+
+#death_note > h3 {
+    color: rgb(5, 5, 5);
+}
+
+#jujutsu {
+    background-image: url(/imagens/jujutsuimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 3px 8px rgba(0, 0, 0, 0.247);
+    height: 700px;
+    margin-bottom: 100px;
+}
+
+#jujutsu > h3 {
+    color: rgb(235, 18, 217);
+}
+
+#titã {
+    background-image: url(/imagens/titaimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 3px 8px rgba(0, 0, 0, 0.247);
+    height: 700px;
+    margin-bottom: 100px;
+}
+
+#titã > h3 {
+    color: rgb(155, 11, 11);
+}
